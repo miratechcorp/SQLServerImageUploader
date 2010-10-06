@@ -1,0 +1,5 @@
+/Projects/SQLServerImageUploader/*/bin
+/Projects/SQLServerImageUploader/*/obj
+*.suo
+*.Publish.xml
+StyleCop.Cache
