@@ -1,0 +1,14 @@
+Usage: ssiu [-?|--help] [-dDSN|--dsn=DSN] [-sSQL|--sql=SQL] {-fFile|--file=File} [-nName|--nameName]
+       -?, --help : Display this usage message
+       -d, --dsn  : Set the database connection string
+       -s, --sql  : Set the sql to use
+       -f, --file : Set the file to upload
+       -n, --name : Set the name to use
+       DSN        : The database connection string (try http://www.connectionstrings.com)
+       SQL        : The sql statement should include 2 placeholders ({0} and {1})
+         {0}      : Where to insert the name
+         {1}      : Where to insert the binary data
+       File       : Relative or absolute path to the file to be included
+       Name       : The name to use (the filename will be used if not supplied)
+
+The DSN and SQL value can be set as environment variables to upload several files to the same location
